@@ -3,7 +3,6 @@ package com.hcl.foodfinder.model;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Table(name = "user", schema = "public")
 @Entity
@@ -19,7 +18,7 @@ public class User {
 
     private String password;
 
-    @OneToMany(mappedBy = "user")
-    private List<Place> places;
+//    @OneToMany(mappedBy = "user")
+//    private List<Place> places;
 
 }
