@@ -1,24 +1,20 @@
 package com.hcl.foodfinder.model;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.stereotype.Component;
 
-import javax.persistence.*;
 
-@Table(name = "user", schema = "public")
-@Entity
 @Data
+@Component
 public class User {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false, updatable = false)
-    private Long id;
+    private String id;
 
     private String userName;
 
     private String password;
 
-//    @OneToMany(mappedBy = "user")
-//    private List<Place> places;
+    private String email;
 
 }
