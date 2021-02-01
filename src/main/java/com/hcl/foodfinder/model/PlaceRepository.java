@@ -8,6 +8,5 @@ import java.util.List;
 
 @RepositoryRestResource(collectionResourceRel = "places", path = "places")
 public interface PlaceRepository extends MongoRepository<Place, String> {
-
     List<Place> findAllByName(@Param("name") String name);
 }

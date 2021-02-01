@@ -17,7 +17,7 @@ public class PlaceController {
     }
 
     @GetMapping("/places")
-    public Iterable<Place> getCurrencies() {
+    public Iterable<Place> getPlaces() {
         return placeRepository.findAll();
     }
 
