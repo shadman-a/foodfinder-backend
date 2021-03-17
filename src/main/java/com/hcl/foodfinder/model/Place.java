@@ -15,4 +15,6 @@ public class Place {
     private String address;
 
     private String yelpid;
+
+    private String user;
 }
