@@ -1,6 +1,6 @@
-package com.hcl.foodfinder.controllers;
+package dev.shadmanahmed.foodfinder.controllers;
 
-import com.hcl.foodfinder.model.Email;
+import dev.shadmanahmed.foodfinder.model.Email;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

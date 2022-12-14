@@ -1,8 +1,8 @@
-package com.hcl.foodfinder.configurations;
+package dev.shadmanahmed.foodfinder.configurations;
 
-import com.hcl.foodfinder.services.AuthenticationFilter;
-import com.hcl.foodfinder.services.LoginFilter;
-import com.hcl.foodfinder.services.UserDetailsServiceImpl;
+import dev.shadmanahmed.foodfinder.services.AuthenticationFilter;
+import dev.shadmanahmed.foodfinder.services.LoginFilter;
+import dev.shadmanahmed.foodfinder.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

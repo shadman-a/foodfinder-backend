@@ -1,8 +1,8 @@
-package com.hcl.foodfinder.controllers;
+package dev.shadmanahmed.foodfinder.controllers;
 
-import com.hcl.foodfinder.model.User;
-import com.hcl.foodfinder.model.UserRepository;
-import com.hcl.foodfinder.services.UserService;
+import dev.shadmanahmed.foodfinder.model.User;
+import dev.shadmanahmed.foodfinder.model.UserRepository;
+import dev.shadmanahmed.foodfinder.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;

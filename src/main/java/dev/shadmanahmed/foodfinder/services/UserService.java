@@ -1,7 +1,7 @@
-package com.hcl.foodfinder.services;
+package dev.shadmanahmed.foodfinder.services;
 
-import com.hcl.foodfinder.model.User;
-import com.hcl.foodfinder.model.UserRepository;
+import dev.shadmanahmed.foodfinder.model.User;
+import dev.shadmanahmed.foodfinder.model.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

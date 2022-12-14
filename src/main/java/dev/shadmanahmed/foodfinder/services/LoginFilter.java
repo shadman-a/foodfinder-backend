@@ -1,7 +1,7 @@
-package com.hcl.foodfinder.services;
+package dev.shadmanahmed.foodfinder.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hcl.foodfinder.model.UserCredentials;
+import dev.shadmanahmed.foodfinder.model.UserCredentials;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

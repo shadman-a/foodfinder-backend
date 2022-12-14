@@ -1,4 +1,4 @@
-package com.hcl.foodfinder.services;
+package dev.shadmanahmed.foodfinder.services;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
