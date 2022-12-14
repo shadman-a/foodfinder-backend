@@ -1,4 +1,4 @@
-package com.hcl.foodfinder;
+package dev.shadmanahmed.foodfinder;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

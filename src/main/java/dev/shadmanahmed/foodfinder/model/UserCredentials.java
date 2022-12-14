@@ -1,4 +1,4 @@
-package com.hcl.foodfinder.model;
+package dev.shadmanahmed.foodfinder.model;
 
 import lombok.Getter;
 import lombok.Setter;

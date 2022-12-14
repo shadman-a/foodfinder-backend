@@ -1,7 +1,7 @@
-package com.hcl.foodfinder.controllers;
+package dev.shadmanahmed.foodfinder.controllers;
 
-import com.hcl.foodfinder.model.Place;
-import com.hcl.foodfinder.model.PlaceRepository;
+import dev.shadmanahmed.foodfinder.model.Place;
+import dev.shadmanahmed.foodfinder.model.PlaceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

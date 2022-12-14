@@ -1,4 +1,4 @@
-package com.hcl.foodfinder.model;
+package dev.shadmanahmed.foodfinder.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
