@@ -17,9 +17,9 @@ import java.util.Properties;
 @RestController
 public class EmailController {
 
-    @Value("11a4b07f969770")
+    @Value("${mailtrap_username}")
     private String username;
-    @Value("5d35ef013ccda6")
+    @Value("${mailtrap_password}")
     private String password;
 
     @RequestMapping(value="/send", method= RequestMethod.POST)
